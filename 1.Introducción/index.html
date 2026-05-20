@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>primera pagina web viky</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- heading = encabezado = titulos -->
+    <h1> Hola me gustan los gatos</h1>
+    <h2> Encabezado 2 </h2>
+    <h3> Encabezado 3 </h3>
+    <h4 class="rojo">Encabezado 4 </h4>
+    <h5> Encabezado 5 </h5>
+    <h6> Encabezado 6 </h6>
+
+    <p class="rojo subrayado">Este es un párrafo. </p>
+
+    <p id="parrafo_especial">
+        lorem ipsum, dolor sit amet consetur adipisicing elit. Voluptatum quisquam nesciunt minus.
+        Quibusdam asperiores dignissimos
+    </p>
+
+    <p>
+        cualquier cosa en: <strong> negrita </strong> <em> enfasis o italicas </em>
+    </p>
+
+    <h2> lista desordenada </h2>
+    <ul>
+        <li> fruta </li>
+        <li> verdura </li>
+        <li> carne</li>
+    </ul>
+
+    <h2> Lista ordenada </h2>
+    <ol>
+        <li>Lasaña</li>
+        <li>Pizza</li>
+        <li> Cazuela</li>
+        <li> sushi</li>
+    </ol>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Apellido </th>
+                <th>Ubicación </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td> Victoria</td>
+                <td> Suárez</td>
+                <td> Santiago</td>
+            </tr>
+            <tr>
+                <td>Victoria</td>
+                <td>Gomez</td>
+                <td>Chile</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <img src="download.jpeg" width="300" height="399" alt="Imagen del gatito">
+    <img src="http://images.unsplash.com/photo-1529778873920-4da4926a72c2?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y3V0ZSUyMGNhdHN8ZW58MHx8MHx8fDA%3D"
+        width="300" height="399" alt="imagen de gatito">
+
+    <video src=""></video>
+
+    <div>
+        <a href="http://google.com" target="_blank">
+            Haz click aquí
+        </a>
+    </div>
+
+    <form action="#" method="post">
+        <div>
+            <label for="nombre_id">Nombre:</label>
+            <input type="text" name="nombre_usuario" id="nombre_id">
+            <input type="number" name="edad">
+            <input type="password" name="contraseña">
+            <input type="date" name="fecha de nacimiento">
+            <input type="email" name="correo electronico">
+        </div>
+
+        <div>
+            <label>Estado Civil:</label><br>
+            
+            <input type="radio" name="estado_civil" value="casado" id="casado_id">
+            <label for="casado_id">Casado</label> <br>
+            <input type="radio" name="estado_civil" value="soltero" id="soltero_id">
+            <label for="soltero_id">Soltero</label>
+        </div>
+
+
+        <div>
+            <label>¿Qué usuario eres?</label>
+            <select name="usuario">
+                <option value="123-45">Elena de Troya</option>
+                <option value="345-67">Juana de Arco</option>
+                <option value="456-78">Pablo Picasso</option>
+                <option value="567-89">Pedro Páramo</option>
+            </select>
+        </div>
+
+        <div>
+            <input type="checkbox" name="terminos_condiciones" id="terminos_condiciones">
+            <label for="terminos_condiciones">Acepto los términos y condiciones</label>
+        </div>
+
+        <div>
+            <textarea name="biografia" cols="40" rows="20" maxlength="20"></textarea><br>
+            <small>*Tienes un máximo de 20 caracteres</small>
+        </div>
+
+        <div>
+            <input type="submit" value="Enviar Información">
+            <button type="submit">Segundo botón para enviar</button>
+        </div>
+    </form>
+
+    <p class="colores">
+        Regla de colores
+    </p>
+
+    <p id="texto">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis temporibus iure nihil fuga nostrum aperiam
+        fugiat, qui veritatis. Explicabo harum itaque ea culpa earum iure asperiores tempore dolor labore eum quidem
+        quod enim ad aspernatur, alias praesentium inventore odio molestiae possimus dignissimos ut delectus perferendis
+        numquam! Atque placeat suscipit et minus molestias adipisci possimus quia corrupti ut facilis voluptatem eaque
+        impedit saepe eos sequi natus excepturi, culpa, soluta facere temporibus blanditiis iusto. Et, magnam voluptate
+        corporis ab asperiores enim laudantium harum. Ad, dolorem id. Laboriosam consectetur dolor architecto natus esse
+        provident amet voluptate dicta! Labore minima alias quas expedita voluptates!
+    </p>
+
+    <div class="tamano"></div>
+
+    <div class="fondo">
+        Texto
+    </div>
+
+    <input type="color">
+    <details></details>
+
+    <div>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3327.6903709285843!2d-70.69812832540147!3d-33.48341119919902!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c4b851c9d621%3A0xdd6c5f6d87dfc0c9!2sCerrillos!5e0!3m2!1ses-419!2scl!4v1778277039814!5m2!1ses-419!2scl"
+            width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+
+    <div class="caja">
+        Caja
+    </div>
+
+
+
+    <div class="div_especial" id="div_id">
+
+    </div>
+
+    <div class="padre">
+        <p>
+            Párrafo hijo
+        </p>
+
+        <div>
+            <p>
+                Párrafo nieto
+            </p>
+        </div>
+
+        <p>
+            Otro párrafo
+        </p>
+
+        <ul>
+            <li>123</li>
+            <li class="modificado">345</li>
+            <li>456</li>
+        </ul>
+    </div>
+
+    <h4 class="inline" >Victoria</h4>
+    <h4 class="inline" >Suárez</h4>
+
+    <a href="#" class="block" >Enlace 1</a>
+    <a href="#" class="block" >Enlace 2</a>
+
+
+    <div class="inline-block" id="div1" >ABC</div>
+    <div class="inline-block" id="div2" >DEF</div>
+    <div class="inline-block" id="div3" > GHI</div>
+
+    
+
+</body>
+</html>
