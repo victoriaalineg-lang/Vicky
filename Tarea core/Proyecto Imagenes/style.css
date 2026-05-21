@@ -1,0 +1,42 @@
+.background{
+    background-color: beige;
+    margin: 0px auto;
+    border: 2px solid black
+}
+
+.top-nav{
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.seccion_1, 
+.seccion_2, 
+.seccion_3{
+    display: flex;
+    justify-content: center; /* Distribuye el espacio uniformemente */
+    gap: 20px;                      /* Deja una separación de 20px entre cada columna */
+    padding: 20px;
+}
+
+.sub-content-seccion-1, .sub-content-seccion-2, .sub-content-seccion-3,
+.sub-content-seccion-2-1, .sub-content-seccion-2-2,
+.sub-content-seccion-3-1, .sub-content-seccion-3-2, .sub-content-seccion-3-3{
+    width: 25%;
+}
+
+.imagen-1, .imagen-2, .imagen-3 ,
+.imagen-2-1, .imagen-2-2 ,
+.imagen-3-1, .imagen-3-2, .imagen-3-3 {
+    width: 100%;
+    height: auto;   /* Evita que las fotos se deformen */
+    display: block; /* Quita espacios fantasmas abajo de la imagen */
+    margin-top: 10px;
+    border: 2px solid black;
+}
+
+.footer-nav{
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+}
