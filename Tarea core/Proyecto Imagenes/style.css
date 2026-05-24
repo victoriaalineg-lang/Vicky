@@ -25,14 +25,22 @@
     width: 25%;
 }
 
-.imagen-1, .imagen-2, .imagen-3 ,
-.imagen-2-1, .imagen-2-2 ,
+.imagen-1, .imagen-2, .imagen-3,
+.imagen-2-1, .imagen-2-2, .imagen-2-3,
 .imagen-3-1, .imagen-3-2, .imagen-3-3 {
     width: 100%;
     height: auto;   /* Evita que las fotos se deformen */
     display: block; /* Quita espacios fantasmas abajo de la imagen */
     margin-top: 10px;
     border: 2px solid black;
+    transition: transform 0.3s ease;
+}
+
+.imagen-1:hover, .imagen-2:hover, .imagen-3:hover,
+.imagen-2-1:hover, .imagen-2-2:hover, .imagen-2-3:hover,
+.imagen-3-1:hover, .imagen-3-2:hover, .imagen-3-3:hover {
+    transform: scale(1.1); /* Agranda la imagen un 10% */
+    cursor: pointer;       /* Cambia el cursor a la mano de clic */
 }
 
 .footer-nav{

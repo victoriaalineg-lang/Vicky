@@ -1,48 +1,38 @@
-<!DOCTYPE html>
-<html lang="en">
+.background {
+  margin: auto;
+  font-family: "Inter", sans-serif;
+  background-color: #ffffff;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  border: none;
+}
 
-<head>
-    <meta charset="UTF-8">
-    <title>Página de perfil</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
-</head>
-<body>
-    <header>
-        <h1>Perfil</h1>
-        <nav>
-            <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Mi Perfil</a></li>
-                <li><a href="#">Encontrar Conexiones</a></li>
-                <li><button>Cerrar Sesión</button></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section class="seccion-izquierda">
-            <div id="tarjeta-usuario" class="tarjeta">
-                <div class="tarjeta-encabezado"></div>
-                <div class="tarjeta-cuerpo">
-                    <img src="img/foto.jpeg" alt="vicky">
-                    <h2>Victoria Suárez Gómez</h2>
-                    <p>
-                        Santiago de Chile<br>
-                        Región Metropolitana
-                    </p>
-                    <p>
-                        Skillnest Bootcamp Fullstack
-                    </p>
-                    <a href="#">Editar perfil</a>
-                </div>
-            </div>
-            </div>
-        </section>
-        <aside class="seccion-derecha">
-        </aside>
-    </main>
-     <script src="js/script.js" ></script>
-</body>
-</html>
+.encabezado {
+  height: 120px;
+  background-color: #00bcd4;
+}
+
+.cuerpo {
+  background-color: white;
+  padding: 5%;
+}
+
+.cuerpo img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 4px solid white;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+
+
+}
+
+.editar_perfil{
+    margin-top: 15px;
+    padding: 8px 16px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}

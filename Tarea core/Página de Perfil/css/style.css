@@ -1,0 +1,176 @@
+/*CSS Reset*/
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #f3f3f3;
+}
+
+header {
+  background-color: #333333;
+  color: white;
+  padding: 20px 40px;
+}
+
+.barra {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header h1 {
+  font-size: 24px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  align-items: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+nav button {
+  background-color: #00bcd4;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+}
+
+main {
+  max-width: 1200px;
+  margin: 30px auto;
+  padding: 0 20px;
+  display: flex;
+  gap: 40px;
+}
+
+.seccion-izquierda {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.seccion-derecha {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.tarjeta, .Educación, .solicitud_conexión, .tus_conexiones {
+  background-color: #ffffff;
+  border-radius: 8px;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+}
+
+.tarjeta-encabezado {
+  height: 120px;
+  background-color: #00bcd4;
+}
+
+.tarjeta-cuerpo {
+  padding: 25px;
+  background-color: #ffffff;
+}
+
+#tarjeta-usuario img {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  border: 4px solid white;
+  display: block;
+  margin-top: -85px; 
+  margin-bottom: 15px;
+  object-fit: cover;
+}
+
+#tarjeta-usuario h1 {
+  font-size: 26px;
+  color: #333333;
+}
+
+.ubicacion, .descripcion {
+  color: #666666;
+  font-size: 14px;
+  margin-top: 5px;
+  line-height: 1.4;
+}
+
+.editar_perfil {
+  margin-top: 20px;
+  padding: 8px 16px;
+  background-color: transparent;
+  color: #00bcd4;
+  border: 1px solid #00bcd4;
+  border-radius: 4px;
+  font-weight: 600;
+}
+
+.Educación {
+  padding: 25px;
+}
+
+.Educación h2 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: #333333;
+}
+
+.item-educacion h3 {
+  font-size: 16px;
+  color: #333333;
+}
+
+.item-educacion p {
+  font-size: 14px;
+  color: #666666;
+  margin-top: 4px;
+}
+
+.solicitud_conexión, .tus_conexiones {
+  padding: 20px;
+}
+
+.solicitud_conexión h2, .tus_conexiones h2 {
+  font-size: 18px;
+  color: #333333;
+  margin-bottom: 20px;
+}
+
+.usuario-fila, .usuario-fila-simple, .usuario-info span, .usuario-fila-simple span  {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.usuario-info {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.perfil_1, .perfil_2, .foto_perfil_1, .foto_perfil_2, .foto_perfil_3 {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #cccccc;
+  background-size: cover;
+  background-position: center;
+}
